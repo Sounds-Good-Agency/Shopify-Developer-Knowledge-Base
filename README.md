@@ -167,23 +167,7 @@ A thorough Checklist of Shopify concepts every developer should know in the orde
 3. [Hide Line Item Properties](https://community.shopify.com/c/Shopify-Design/Product-pages-Get-customization-information-for-products/m-p/616525#hide-line-item-properties)
 </details>
 
-### Shopify Scripts
-1. Understand the basics of Ruby. [1](https://www.codecademy.com/learn/learn-ruby)
-2. Understand what Shopify scripts are and how to use them. [2](https://help.shopify.com/en/manual/apps/apps-by-shopify/script-editor/), [3](https://help.shopify.com/en/manual/apps/apps-by-shopify/script-editor/examples)
-3. Know the Shopify Scripts API. [4](https://help.shopify.com/en/manual/apps/apps-by-shopify/script-editor/shopify-scripts)
-4. Know the limitations of Script such as not being able to add products and lack of API. [5](https://help.shopify.com/en/manual/apps/apps-by-shopify/script-editor/limitations)
-5. Know about the unofficial Shopify Scripts generator. [6](https://jgodson.github.io/shopify-script-creator/)
 
-<details>
-<summary>Resources</summary>
-
-1. [Learn Ruby Fundamentals](https://www.codecademy.com/learn/learn-ruby)
-2. [Shopify Scripts & Script Editor](https://help.shopify.com/en/manual/apps/apps-by-shopify/script-editor/)
-3. [Shopify Scripts Examples](https://help.shopify.com/en/manual/apps/apps-by-shopify/script-editor/examples)
-4. [Scripts API](https://help.shopify.com/en/manual/apps/apps-by-shopify/script-editor/shopify-scripts)
-5. [Limitations of Scripts](https://help.shopify.com/en/manual/apps/apps-by-shopify/script-editor/limitations)
-6. [Scripts Generator](https://jgodson.github.io/shopify-script-creator/)
-</details>
 
 ## App Development
 
@@ -198,12 +182,6 @@ A thorough Checklist of Shopify concepts every developer should know in the orde
 3. Know that Shopify Plus stores have double the rate limits. [1](https://shopify.dev/concepts/about-apis/rate-limits#resource-based-rate-limits)
 4. Know that the popular `Shopify-api-node` library respects rate limiting and allows for configuration. [1](https://github.com/MONEI/Shopify-api-node#shopifycalllimits)
 
-### Security best practices
-
-1. Know how to rotate credentials and why it's important. [1](https://shopify.dev/tutorials/rotate-revoke-api-credentials)
-2. Know that access tokens should be encrypted at rest.
-3. Know that all API requests should be verified via session before taking actions on behalf of a user.
-4. Know that all user input should be cleaned and verified before saving to DB.
 
 ### Useful packages
 
@@ -223,4 +201,30 @@ A thorough Checklist of Shopify concepts every developer should know in the orde
 1. [Developer Changelog](https://shopify.dev/changelog)
 </details>
 
+# Deprecated/outdated - Not so important anymore
+
+### Shopify Scripts
+1. Understand the basics of Ruby. [1](https://www.codecademy.com/learn/learn-ruby)
+2. Understand what Shopify scripts are and how to use them. [2](https://help.shopify.com/en/manual/apps/apps-by-shopify/script-editor/), [3](https://help.shopify.com/en/manual/apps/apps-by-shopify/script-editor/examples)
+3. Know the Shopify Scripts API. [4](https://help.shopify.com/en/manual/apps/apps-by-shopify/script-editor/shopify-scripts)
+4. Know the limitations of Script such as not being able to add products and lack of API. [5](https://help.shopify.com/en/manual/apps/apps-by-shopify/script-editor/limitations)
+5. Know about the unofficial Shopify Scripts generator. [6](https://jgodson.github.io/shopify-script-creator/)
+
+<details>
+<summary>Resources</summary>
+
+1. [Learn Ruby Fundamentals](https://www.codecademy.com/learn/learn-ruby)
+2. [Shopify Scripts & Script Editor](https://help.shopify.com/en/manual/apps/apps-by-shopify/script-editor/)
+3. [Shopify Scripts Examples](https://help.shopify.com/en/manual/apps/apps-by-shopify/script-editor/examples)
+4. [Scripts API](https://help.shopify.com/en/manual/apps/apps-by-shopify/script-editor/shopify-scripts)
+5. [Limitations of Scripts](https://help.shopify.com/en/manual/apps/apps-by-shopify/script-editor/limitations)
+6. [Scripts Generator](https://jgodson.github.io/shopify-script-creator/)
+</details>
+
+### Security best practices (not so important - there are more important things in this)
+
+1. Know how to rotate credentials and why it's important. [1](https://shopify.dev/tutorials/rotate-revoke-api-credentials)
+2. Know that access tokens should be encrypted at rest.
+3. Know that all API requests should be verified via session before taking actions on behalf of a user.
+4. Know that all user input should be cleaned and verified before saving to DB.
 
